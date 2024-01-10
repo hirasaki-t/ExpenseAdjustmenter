@@ -1,0 +1,12 @@
+name: Web Deploy
+on:
+  push:
+    branches:
+      - master
+jobs:
+  Deploy:
+    uses: ./.github/workflows/_deploy-web.yml
+    with:
+      CONFIGURATION: Release
+    secrets:
+      WEB_DEPLOY: ${{ secrets.WEB_DEPLOY }}

@@ -1,0 +1,3 @@
+*.ps1 encoding=sjis
+
+*.cmd text eol=crlf

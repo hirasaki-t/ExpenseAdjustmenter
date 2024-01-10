@@ -1,0 +1,1 @@
+export type SubmissionMethod = "電子" | "紙/持参" | "紙/郵送";
